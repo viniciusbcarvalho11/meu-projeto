@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>HyperX - Produtos</title>
+<link rel="icon" href="favicon.png" type="image/png" />
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Montserrat&family=Open+Sans&family=Oswald&family=Lato&display=swap" rel="stylesheet" />
+<style>
+    * {
+        margin: 0; padding: 0; box-sizing: border-box;
+    }
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #000;
+        color: #fff;
+        line-height: 1.6;
+    }
+    header {
+        background-color: #fff;
+        padding: 15px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: 'Montserrat', sans-serif;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    }
+    header nav a {
+        color: #E60012;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 18px;
+        transition: color 0.3s;
+    }
+    header nav a:hover {
+        color: #000;
+    }
+    main {
+        padding: 30px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    section {
+        margin-bottom: 40px;
+        background-color: #222;
+        padding: 20px;
+        border-radius: 8px;
+    }
+    section:nth-child(odd) {
+        background-color: #333;
+    }
+    h2 {
+        color: #E60012;
+        margin-bottom: 15px;
+        font-family: 'Lato', sans-serif;
+    }
+    p {
+        margin-bottom: 15px;
+    }
+    img {
+        max-width: 100%;
+        border-radius: 6px;
+        margin-bottom: 10px;
+    }
+    figure {
+        margin: 15px 0;
+        text-align: center;
+    }
+    figcaption {
+        font-size: 0.9rem;
+        color: #ccc;
+    }
+    video {
+        width: 100%;
+        border-radius: 6px;
+        margin-top: 10px;
+        background-color: #000;
+    }
+    /* Galeria */
+    .gallery {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .gallery-item {
+        background-color: #1E1E1E;
+        border-radius: 8px;
+        width: 30%;
+        padding: 10px;
+        box-shadow: 0 0 10px #E60012;
+        transition: transform 0.3s;
+    }
+    .gallery-item:hover {
+        transform: scale(1.05);
+    }
+    .gallery-item img {
+        width: 100%;
+        border-radius: 6px;
+        margin-bottom: 10px;
+    }
+    .gallery-item p {
+        font-size: 0.95rem;
+        color: #ddd;
+    }
+    /* Listas estilizadas */
+    ul, ol {
+        margin: 15px 0 30px 20px;
+        color: #eee;
+        font-family: 'Oswald', sans-serif;
+    }
+    ul.custom-list {
+        list-style-type: square;
+    }
+    ul.custom-list.circle {
+        list-style-type: circle;
+    }
+    ul.custom-list.disc {
+        list-style-type: disc;
+    }
+    ol.custom-ordered {
+        list-style-type: decimal;
+    }
+    ol.custom-ordered.alpha {
+        list-style-type: lower-alpha;
+    }
+    ol.custom-ordered.roman {
+        list-style-type: upper-roman;
+    }
+    /* Footer */
+    footer {
+        background-color: #1E1E1E;
+        padding: 20px 30px;
+        display: flex;
+        justify-content: space-between;
+        color: #999;
+        font-size: 0.9rem;
+        font-family: 'Montserrat', sans-serif;
+        border-top: 2px solid #E60012;
+    }
+    .footer-icons a {
+        margin-right: 15px;
+        color: #E60012;
+        font-size: 24px;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+    .footer-icons a:hover {
+        color: #fff;
+    }
+    .footer-section {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+</style>
+<!-- Font Awesome para ícones -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="contato.html">Contato</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="novidades.html">Novidades</a>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Conheça os Produtos</h2>
+        <p>A linha HyperX oferece periféricos de alta performance para atender todos os estilos de gamers, desde iniciantes até profissionais.</p>
+        <p>Fones com som imersivo, teclados mecânicos com switches premium, e mouses ergonômicos para máxima precisão.</p>
+        <figure>
+            <img src="https://static.meupc.net/produto/mouse-hyperx-pulsefire-fps-pro-pulsefirefpspro-u4rxb7-L.jpg" alt="Mouse HyperX" />
+            <figcaption>Mouse gamer HyperX Pulsefire Pro .</figcaption>
+        </figure>
+        <p>Cada produto é desenvolvido pensando em durabilidade e conforto para que você jogue por horas sem perder a performance.</p>
+        <video controls>
+            <source src="https://cdn.pixabay.com/video/2021/10/15/92167-634085076_large.mp4" type="video/webm" />
+  
+        </video>
+    </section>
+
+    <section>
+        <h2>Produtos</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/k/h/khx-hscp-rd.jpg" alt="Headset HyperX Cloud" />
+                <p><strong>Headset HyperX Cloud II:</strong> Áudio cristalino e isolamento perfeito para concentração total.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="https://pcper.com/wp-content/uploads/2018/09/2393-dsc-0275.jpg" alt="Teclado HyperX" />
+                <p><strong>Teclado HyperX Alloy FPS:</strong> Switches mecânicos e design compacto para máxima agilidade.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="https://row.hyperx.com/cdn/shop/files/kf-2-hyperx-fury-s-gaming-mouse-pad-speed-xl.jpg" alt="Mousepad HyperX" />
+                <p><strong>Mousepad HyperX Fury:</strong> Superfície ultra suave para movimentos precisos e rápidos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Listas de Características</h2>
+        <ul class="custom-list">
+            <li>Alta durabilidade dos materiais</li>
+            <li>Design ergonômico para conforto</li>
+            <li>Iluminação RGB personalizável</li>
+            <li>Compatibilidade multi-plataforma</li>
+            <li>Software próprio para configurações</li>
+            <li>Suporte técnico 24/7</li>
+        </ul>
+
+        <ul class="custom-list circle">
+            <li>Fones com som surround 7.1</li>
+            <li>Teclados com anti-ghosting</li>
+            <li>Mouses com até 16000 DPI</li>
+            <li>Mousepads com base antiderrapante</li>
+            <li>Construção leve e resistente</li>
+            <li>Garantia estendida de 2 anos</li>
+        </ul>
+
+        <ul class="custom-list disc">
+            <li>Microfone com cancelamento de ruído</li>
+            <li>Switches mecânicos Cherry MX</li>
+            <li>Modos de iluminação pré-definidos</li>
+            <li>Configurações de macro personalizadas</li>
+            <li>Botões programáveis</li>
+            <li>Design moderno e elegante</li>
+        </ul>
+
+        <ol class="custom-ordered">
+            <li>Escolha o produto ideal para seu estilo</li>
+            <li>Configure suas preferências via software</li>
+            <li>Conecte e jogue sem complicações</li>
+            <li>Aproveite sua experiência gaming</li>
+            <li>Conte com suporte oficial HyperX</li>
+            <li>Atualize sempre seu equipamento</li>
+        </ol>
+
+        <ol class="custom-ordered alpha">
+            <li>Fones de ouvido</li>
+            <li>Teclados mecânicos</li>
+            <li>Mouses gamer</li>
+            <li>Mousepads</li>
+            <li>Headsets sem fio</li>
+            <li>Adaptadores e acessórios</li>
+        </ol>
+
+        <ol class="custom-ordered roman">
+            <li>Qualidade comprovada</li>
+            <li>Design premiado</li>
+            <li>Inovação constante</li>
+            <li>Comunidade engajada</li>
+            <li>Preço competitivo</li>
+            <li>Disponibilidade global</li>
+        </ol>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-icons">
+        <a href="https://facebook.com/HyperX" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/HyperX" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://youtube.com/HyperX" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="https://instagram.com/HyperX" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+    <div class="footer-section">
+        <span>Contato: contato@hyperx.com.br</span>
+        <span>© 2025 HyperX. Todos os direitos reservados.</span>
+    </div>
+    <div class="footer-section">
+        <span>Redes sociais:</span>
+        <span>Facebook | Twitter | YouTube | Instagram</span>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HyperX Periféricos - Novidades</title>
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Montserrat&family=Open+Sans&family=Oswald&family=Lato&display=swap" rel="stylesheet" />
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #000;
+            color:#fff;
+            line-height:1.6;
+        }
+        header {
+            background-color: #fff;
+            padding: 15px 30px;
+            display:flex;
+            align-items:center;
+            justify-content:space-between;
+            font-family: 'Montserrat', sans-serif;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        }
+        header h1 { color:#E60012; }
+        header nav a {
+            color: #E60012;
+            margin: 0 12px;
+            text-decoration:none;
+            font-weight:700;
+            font-size:18px;
+            transition: color .25s;
+        }
+        header nav a:hover { color:#000; }
+
+        .hero {
+            background: url('https://images.unsplash.com/photo-1529270292353-58b0a8f6f7a9?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+            height: 300px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            font-family:'Oswald', sans-serif;
+            font-size:2.4rem;
+            color:#fff;
+            text-shadow: 2px 2px 8px #000;
+        }
+
+        main { padding: 30px; }
+
+        section { padding:18px; border-radius:8px; margin-bottom:22px; }
+
+        /* backgrounds (preto/tons e vermelho) */
+        .sec-a { background-color: #111; }
+        .sec-b { background-color: #1E1E1E; }
+        .sec-c { background-color: #222; }
+        .sec-d { background-color: #333; }
+
+        h2 { color:#E60012; margin-bottom:10px; font-family:'Lato', sans-serif; }
+        p { margin-bottom:12px; font-family: 'Open Sans', sans-serif; }
+
+        img { max-width:100%; border-radius:6px; margin-bottom:8px; }
+        figure { margin:12px 0; text-align:center; }
+        figcaption { font-size:0.9rem; color:#ccc; }
+
+        video { width:100%; border-radius:6px; margin-top:10px; background-color:#000; }
+
+        /* Destaques de novidades */
+        .news-list { display:grid; grid-template-columns: repeat(2, 1fr); gap:18px; }
+        @media (max-width:900px){ .news-list{ grid-template-columns: 1fr; } }
+
+        /* footer */
+        footer {
+            background-color:#000;
+            padding:20px 30px;
+            display:flex;
+            justify-content:space-between;
+            color:#999;
+            font-size:0.9rem;
+            font-family:'Montserrat', sans-serif;
+            border-top:2px solid #E60012;
+            gap:20px;
+            flex-wrap:wrap;
+        }
+        .footer-icons a { margin-right:15px; color:#E60012; font-size:24px; text-decoration:none; transition:color .25s; }
+        .footer-icons a:hover { color:#fff; }
+        .footer-section { display:flex; flex-direction:column; gap:6px; }
+
+    </style>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="contato.html">Contato</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="novidades.html">Novidades</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        Novidades e Atualizações HyperX
+    </div>
+
+    <main>
+        <section class="sec-a">
+            <h2>Lançamentos Recentes</h2>
+            <p>Chegaram novos modelos de teclados com switches otimizados para resposta ultra-rápida e novas keycaps texturizadas.</p>
+            <figure>
+                <img src="https://gorilagames.com/img/Public/1019-producto-teclado-hyperx-alloy-fps-rgb-kailh-silver-3-1725.jpg" alt="Lançamento HyperX" />
+                <figcaption>Lançamentos com foco em performance competitiva.</figcaption>
+            </figure>
+            <p>Os novos periféricos chegam com atualizações de firmware para personalização avançada pelo software oficial.</p>
+        </section>
+
+        <section class="sec-b">
+            <h2>Headset</h2>
+            <p>Também ampliamos nossa linha de headsets sem fio com maior autonomia e codecs de baixa latência para competição.</p>
+            <p>As parcerias com times profissionais ajudam a testar os equipamentos em condições reais de competição.</p>
+            <figure>
+                <img src="https://qualmelhorproduto.com.br/wp-content/uploads/2025/07/1MM-93.webp" alt="Headset HyperX Cloud Mix" />
+            </figure>
+        </section>
+
+        <section class="sec-c">
+            <h2>Identidade no visual</h2>
+            <div class="news-list">
+            </div>
+            <video controls>
+                <source src="c:\Users\Usuario\Downloads\223809_small.mp4" type="video/webm" />
+            </video>
+        </section>
+
+    <footer>
+        <div class="footer-icons">
+            <a href="https://facebook.com/HyperX" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/HyperX" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://youtube.com/HyperX" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="https://instagram.com/HyperX" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+
+        <div class="footer-section">
+            <span>Contato: contato@hyperx.com.br</span>
+            <span>Assine: novidades@hyperx.com.br</span>
+        </div>
+
+        <div class="footer-section">
+            <span>© 2025 HyperX. Todos os direitos reservados.</span>
+            <span>Política de privacidade.</span>
+        </div>
+    </footer>
+</body>
+</html>
